@@ -16,13 +16,22 @@ API RESTful para sistema de gerenciamento de pizzaria desenvolvida como projeto 
 - Controle de pedidos
 - Gestão de itens dos pedidos
 
+## 🛠 Tecnologias Utilizadas
+
+- **Node.js** - Ambiente de execução JavaScript
+- **Express** - Framework para construção da API
+- **Prisma** - ORM para acesso ao banco de dados
+- **MySQL** - Sistema de banco de dados relacional
+- **Insomnia** - Cliente REST para testes da API
+
 ## 🚀 Começando
 
 ### Pré-requisitos
 
 - Node.js 18+
-- XAMPP (para MySQL)
-- Insomnia/Postman (para testes)
+- MySQL 8.0+ (ou XAMPP)
+- Insomnia (opcional para testes)
+- Git (opcional para clonar o repositório)
 
 ### ⚙️ Instalação
 
@@ -30,3 +39,6 @@ API RESTful para sistema de gerenciamento de pizzaria desenvolvida como projeto 
 ```bash
 git clone https://github.com/seu-usuario/pbe2-vpf01-2025.git
 cd pbe2-vpf01-2025/api
+```
+
+
