@@ -40,5 +40,12 @@ API RESTful para sistema de gerenciamento de pizzaria desenvolvida como projeto 
 git clone https://github.com/seu-usuario/pbe2-vpf01-2025.git
 cd pbe2-vpf01-2025/api
 ```
+2. Instale as dependências:
+```bash
+npm i express dotenv routes
+```
+3. Configure o banco de dados:
 
+- Crie um banco MySQL chamado pizzaria
+- Configure as credenciais no arquivo .env (use .env.example como base)
 
