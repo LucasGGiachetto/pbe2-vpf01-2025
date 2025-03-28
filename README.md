@@ -44,8 +44,42 @@ cd pbe2-vpf01-2025/api
 ```bash
 npm i express dotenv routes
 ```
-3. Configure o banco de dados:
+```bash
+npm install prisma @prisma/client
+```
 
-- Crie um banco MySQL chamado pizzaria
+3. Configure o banco de dados:
+```bash
+npx prisma migrate dev --name init
+npx prisma generate
+```
 - Configure as credenciais no arquivo .env (use .env.example como base)
 
+### 🔧 Configuração
+## Variáveis de Ambiente (.env
+```bash
+DATABASE_URL="mysql://usuario:senha@localhost:3306/pizzaria"
+PORT=3000
+```
+
+### Estrutura de Diretórios
+```bash
+/api
+  /controllers
+  /routes
+  /models
+  /prisma
+    schema.prisma
+  .env
+  index.js
+```
+
+### Inicie o servidor:
+```bash
+nodemon
+```
+ou
+
+```bash
+node server.js
+```
